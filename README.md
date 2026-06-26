@@ -116,4 +116,4 @@ The Jaeger trace should show the following spans with these attributes:
 - The trace waterfall should show the ordered execution of the core spans.
 - Errors are expected for invalid input cases and are reflected in `input_validation` spans.
 - A valid screenshot must show `trust_score_pipeline` plus all child spans: `input_validation`, `weight_normalization`, `score_calculation`, `evidence_generation`, and `hash_computation`.
-# Instrumented-Trust-Score-calculator-with-OpenTelemetry-tracing
+
